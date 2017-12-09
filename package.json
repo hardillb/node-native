@@ -1,0 +1,26 @@
+{
+  "name": "native-node",
+  "version": "1.0.0",
+  "description": "A basic NodeJS Native module using nan to show how to make callbacks from native code while maintaing the wrapper objects context.",
+  "main": "index.js",
+  "dependencies": {
+    "bindings": "^1.3.0",
+    "nan": "^2.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
+  },
+  "homepage": "https://www.hardill.me.uk/wordpress/2017/12/09/native-nodejs-callbacks-with-context/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hardillb/node-native.git"
+  },
+  "author": {
+    "name": "Ben Hardill",
+    "email": "hardillb@gmail.com"
+  },
+  "license": "Apache-2.0",
+  "gypfile": true
+}
