@@ -1,9 +1,9 @@
-#An example native NodeJS module
+# An example native NodeJS module
 
 A basic NodeJS Native module using nan to show how to make callbacks from native code while 
 maintaing the wrapper objects context.
 
-##Description
+## Description
 
 This node module simulates a asynchronous process that reports status regularly using an 
 event emitter pattern.
